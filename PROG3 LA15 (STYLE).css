@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.image {
+	background-image: url("LA13 BACKGROUND.png");
+	min-height: 750px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container div {
+	display: inline-block;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.nav {
+	display: inline-block;
+	
+}
+
+.nav a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	margin: auto;
+}
+
+.iframecontainer {
+	margin-left: 350px;
+	margin-top:  150px;
+	position: relative;
+	overflow: hidden;
+	padding-top: 50.25%;
+}
+
+.iframecontainer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 50%;
+}
+
+.tagline {
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.lalagyan {
+	display: flex;
+	align-content: center;
+	margin: auto;
+}
+
+.categ ul, li {
+	margin: auto;
+	padding: auto;
+	text-align: justify;
+}
+
+.lalagyan div {
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	color: #5E8494;
+	margin: auto;
+	font-family: sans-serif;
+	line-height: 1px;
+}
+
+.footer {
+	width: 100%;
+	padding: 20px 0;
+	background: #5E8494;
+	display: flex;
+	
+}
+
+.footer div {
+	align-items: center;
+	margin: auto;
+	line-height: 30px;
+}
+
+.col1 img, .col2 a, .col3 a {
+	flex-grow: 2;
+}
+
+.col2 a, .col3 a, .col4 a {
+	text-decoration: none;
+	text-align: left;
+	list-style: none;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin-right: 25px;
+}
+
+
+.imgs {
+	display: flex;
+}
